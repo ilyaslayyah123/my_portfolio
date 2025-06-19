@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
   typeLoop();
   document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
-    emailjs.sendForm('service_j1hk1qq', 'template_default', this)
+    emailjs.sendForm('service_j1hk1qq', 'template_iavc3qu', this)
       .then(() => document.getElementById("status-msg").textContent = "Message sent successfully!")
       .catch(() => document.getElementById("status-msg").textContent = "Failed to send message.");
     this.reset();
